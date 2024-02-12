@@ -1,0 +1,152 @@
+* {
+      padding: 0;
+      margin: 0;
+      /* font-family: monospace; */
+      font-weight: bold;
+}
+
+
+.container {
+      padding: 20px;
+      border: 1px solid black;
+      margin-top: 20px;
+      background: linear-gradient(135deg, #153677, #4e085f, red);
+      border-radius: 30px;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.header {
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 3px 0px 3px;
+}
+
+.h-wrapper {
+      background: linear-gradient(135deg, red, #153677, #4e085f);
+      border-radius: 30px;
+      margin-bottom: 20px;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+
+}
+
+#ınput {
+      box-shadow: none;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      display: inline-block;
+      width: 75%;
+      border-radius: 50px;
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+
+
+}
+
+#button {
+      box-shadow: none;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      display: inline-block;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      width: 23%;
+      border: 2px solid white;
+      background: linear-gradient(135deg, #153677, #4e085f, red);
+
+}
+
+#button:hover {
+      background: blue;
+      transition: 0.8s;
+}
+
+.hr {
+      color: white;
+}
+
+.second-header {
+      color: white;
+      font-size: 35px;
+      margin-left: 10px;
+      font-weight: bold;
+      text-shadow: 3px 0px 5px;
+      margin-bottom: 15px;
+}
+
+#search {
+      box-shadow: none;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      display: inline-block;
+      border-radius: 50px;
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      margin-bottom: 20px;
+
+}
+
+#clearButton {
+      box-shadow: none;
+      box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+      padding: 10px;
+      display: inline-block;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border: 2px solid white;
+      background: linear-gradient(135deg, #153677, #4e085f, red);
+
+}
+
+#clearButton:hover {
+      background: red;
+      transition: 1s;
+
+}
+
+.list-group-item{
+    background: transparent;
+    color: white;
+    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.75);
+    margin-bottom: 3px;
+    font-size: 20px;
+    /* border-radius: 30px; */
+    font-family: monospace;
+
+
+    
+}
+
+.list-group-item:hover{
+      background: blue;
+      transition: 1s;
+      color: white;
+
+}
+
+#list-group li a{
+       color: white;
+}
+
+#list-group li a:hover{
+     color: red;
+     font-size: 21px;
+}
+
+#list-group{
+    margin-bottom: 20px;
+}
+
+.delete-item{
+      color: white;
+}
+.delete-item:hover{
+      color: red;
+}
